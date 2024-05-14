@@ -16,4 +16,6 @@ public class Armor {
     public void setDefensePoint(int defensePoint) {
         this.defensePoint = defensePoint;
     }
+
+    // test
 }
