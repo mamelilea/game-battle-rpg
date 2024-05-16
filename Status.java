@@ -1,3 +1,4 @@
+// class Status
 public class Status {
     boolean isWeak;
     boolean isPoisoned;

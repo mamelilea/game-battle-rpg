@@ -69,6 +69,7 @@ public abstract class Character {
         MP += amount;
     }
 
+
     public void info() {
         System.out.println("Race: " + getRace());
         System.out.println("HP: " + getHP());

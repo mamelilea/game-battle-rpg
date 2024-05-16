@@ -84,6 +84,7 @@ class Elf extends Foe {
     public void heal(Character target) {
         int healAmount = 20;
         target.heal(healAmount);
+        System.out.println("Elf memberikan heal ke " + target.getRace() + " dengan jumlah " + healAmount + " HP.");
     }
 
     public void recoverMP(Character target) {

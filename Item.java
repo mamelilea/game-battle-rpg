@@ -35,7 +35,8 @@ class Elixir implements Item {
         if (character.isHero()) {
             character.setHP(character.getHP() + 150);
             character.setMP(character.getMP() + 100);
-            System.out.println("Elixir digunakan. HP " + character.getRace() + " naik sebesar 150 dan MP naik sebesar 100.");
+            System.out.println(
+                    "Elixir digunakan. HP " + character.getRace() + " naik sebesar 150 dan MP naik sebesar 100.");
         } else {
             System.out.println("Elixir hanya dapat digunakan oleh karakter Hero.");
         }
