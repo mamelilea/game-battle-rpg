@@ -1,4 +1,4 @@
-// Class Armor
+// Class Armor  
 public class Armor {
     private int defensePoint;
 

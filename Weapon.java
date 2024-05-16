@@ -1,4 +1,4 @@
-// Class Weapon
+// Class Weapon  
 abstract class Weapon {
     private String name;
     private int attackPoint;

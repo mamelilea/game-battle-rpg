@@ -1,4 +1,4 @@
-// Class Hero
+// Class Hero  
 abstract class Hero extends Character {
     private String name;
     private String race;
