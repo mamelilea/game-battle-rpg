@@ -2,9 +2,14 @@
 
 public class Main {
     public static void main(String[] args) {
+        Character.numberOfCharacters++;
+        Hero.numberOfHeroes++;
         // Upcasting
         Character hero1 = new Knight(100, 50, 1, "Arthur", "Knight", new Sword("Excalibur", 25), new Armor(30));
         Character foe1 = new Elf(70, 50, 1, "Elf", new Sword("Rusty Sword", 15));
+
+        System.out.println("Jumlah karakter: " + Character.numberOfCharacters);
+        System.out.println("Jumlah hero: " + Hero.numberOfHeroes);
 
         System.out.println("=== Informasi Sebelum Pertarungan ===");
         hero1.info();

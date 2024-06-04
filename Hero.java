@@ -1,5 +1,6 @@
 // Class Hero  
 abstract class Hero extends Character {
+    public static int numberOfHeroes = 0;
     private String name;
     private String race;
     private Weapon weapon;

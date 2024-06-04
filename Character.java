@@ -1,5 +1,6 @@
 // Class Character
 public abstract class Character {
+    public static int numberOfCharacters = 0;
     private int HP;
     private int MP;
     private int level;
