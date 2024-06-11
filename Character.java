@@ -79,5 +79,13 @@ public abstract class Character {
         System.out.println("Status: " + getStatus().toString());
     }
 
+    public void heal(int amount, boolean fullHeal) {
+        if (fullHeal) {
+            HP = 100;
+        } else {
+            HP += amount;
+        }
+    }
+
 
 }
